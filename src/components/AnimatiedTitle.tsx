@@ -30,6 +30,7 @@ const AnimatiedTitle = ({ title, sectionId, containerClass }: { title?: string, 
     return (
 
         <div
+            id={sectionId}
             ref={containerRef}
             className={`animated-title ${containerClass}`}
         >
